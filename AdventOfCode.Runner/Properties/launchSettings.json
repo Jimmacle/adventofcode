@@ -2,7 +2,11 @@
   "profiles": {
     "AdventOfCode.Runner": {
       "commandName": "Project",
-      "workingDirectory": "$(ProjectDir)"
+      "workingDirectory": "$(ProjectDir)",
+      "commandLineArgs": "-o --year 2023",
+      "environmentVariables": {
+        "sessionId": "53616c7465645f5fdedac5de7c880bb8430e56a7fd5e538ffca46909777f40f9f49b947a5b0d4872ad47cd05cc33fafd29b038e0ed1bea54cfd74ef25b973901"
+      }
     }
   }
 }
